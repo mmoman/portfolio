@@ -67,6 +67,51 @@ header{
 /*******************************Header Section End*********************************/
 
 /*******************************Service Section Start******************************/
+.service{
+    width: 100%;
+    float: left;
+    background-color: #18aaa2;
+    padding: 25px 0;
+}
+.title{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.title h2{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.title span{
+    display: block;
+    width: 70px;
+    margin: 10px auto;
+    border: 2px solid #0000009c;
+
+}
+.title p{
+    color: #000000bf;
+    padding: 10px;
+}
+.service-info{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+.service-info img{
+    margin: 5px;
+}
+.service-info h2{
+    margin: 10px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.service-info p{
+    color: #ffffffde;
+}
+
 /*******************************Service Section End********************************/
 
 /*******************************Team Section Start*********************************/
