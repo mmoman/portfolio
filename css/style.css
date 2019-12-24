@@ -9,7 +9,61 @@ body{
     width: 1140px;
     margin: 0 auto;
 }
+h2{
+    font-family: 'Girassol', cursive;
+    font-weight: normal;
+}
 /*******************************Header Section Start*******************************/
+header{
+    width: 100%;
+    float: left;
+    background-color: #865c96;
+    padding: 25px 0;
+}
+
+.nav-brand{
+    width: 40%;
+    float: left;
+}
+.nav-brand img{}
+
+.navbar{
+    width: 60%;
+    float: left;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.header-info{
+    width: 45%;
+    margin: 0 auto;
+    padding: 10% 0;
+    text-align: center;
+}
+.header-info h2{
+    color: white;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+.btn-header{
+    background-color: #f77551;
+    box-shadow: 0 2px 0 #f775517a;
+}
 /*******************************Header Section End*********************************/
 
 /*******************************Service Section Start******************************/
