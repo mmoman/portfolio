@@ -137,11 +137,11 @@ header{
 .team-info h2{
     margin-top: 7px;
     color: #110101;
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 .team-info h5{
-    color: #8b7cb1eb;;
-    font-size: 0.9em;
+    color: #8b7cb1eb;
+    font-size: 0.8em;
 }
 .team-info p{
     color: #000000c4;
@@ -193,13 +193,150 @@ header{
 /*******************************Skill Section End**********************************/
 
 /*******************************Portfolio Section Start****************************/
+.portfolio{
+    width: 100%;
+    float: left;
+    background-color: #fddc9e;
+    padding: 25px 0;
+    text-align: center;
+}
+.btn-portfolio{background-color: #c5aa79;padding: 5px;}
+.portfolio-top, .portfolio-bottom{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+}
+.portfolio-top-info, .portfolio-bottom-info{
+    width: 50%;
+    float: left;
+}
+.portfolio-top-info img, .portfolio-bottom-info img{}
+.portfolio-top-info h2, .portfolio-bottom-info h2{
+    color: #000000c7;
+    font-size: 1.4em;
+    margin: 7px 0;
+}
+.btn-portfolio-btm{
+    background-color: #32bbbf;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 #048687;
+    margin-bottom: 50px;
+}
 /*******************************Portfolio Section End******************************/
 
 /*******************************Testimonial Section Start**************************/
+.testimonial{
+    width: 100%;
+    float: left;
+    background-color: #d35b7f;
+    padding: 25px 0;
+}
+
+.testimonial-main{
+    width: 100%;
+    float: left;
+}
+.testimonial h2{
+    color: #ffffff;
+}
+.testimonial p{
+    color: #fffffff2;
+}
+.testimonial-info{
+    width: 45%;
+    float: left;
+    margin: 30px 10px 10px;;
+}
+.testimonial-info-img{
+    width: 30%;
+    float: left;
+}
+.testimonial-info-img img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50px;
+}
+.testimonial-info-comment{
+    width: 70%;
+    float: left;
+}
+.testimonial-info-comment p{
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 0.9em;
+}
+.testimonial-info-comment h2{
+    font-size: 1.3em;
+}
+.testimonial-info-comment h5{
+    color: #f5c206;
+    font-style: italic;
+}
 /*******************************Testimonial Section End****************************/
 
 /*******************************Contact Section Start******************************/
+.contact{
+    width: 100%;
+    float: left;
+    padding: 25px 0;
+    background-color: #3b5592;
+}
+.contact h2{
+    color: #ffffff;
+}
+.contact p{
+    color: #ffffffd1;
+}
+.contact-form{
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+.form-control{
+    width: 48%;
+    height: 35px;
+    background-color: #0d2f4e;
+    border: none;
+    border-radius: 5px;
+}
+.contact-form textarea{
+    width: 98%;
+    height: 125px;
+    background-color: #0d2f4e;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.btn-submit{
+    background-color: #32bbbf;
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #147489;
+}
 /*******************************Contact Section End********************************/
 
 /*******************************Footer Section Start*******************************/
+footer{
+    width: 100%;
+    float: left;
+    background-color: #344b87;
+    padding: 25px 0;
+}
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    font-family: 'Girassol', cursive;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 35px;
+}
 /*******************************Footer Section End*********************************/
