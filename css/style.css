@@ -91,7 +91,7 @@ header{
 }
 .title p{
     color: #000000bf;
-    padding: 10px;
+    margin: 5px;
 }
 .service-info{
     width: 20%;
@@ -110,14 +110,86 @@ header{
 }
 .service-info p{
     color: #ffffffde;
+    font-size: .9em;
 }
 
 /*******************************Service Section End********************************/
 
 /*******************************Team Section Start*********************************/
+.team{
+    width: 100%;
+    float: left;
+    background-color: #d4d2d4;
+    padding: 25px 0;
+}
+.team-info{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+.team-info img{
+    border-radius: 50px;
+    width: 130px;
+    height: 130px
+}
+.team-info h2{
+    margin-top: 7px;
+    color: #110101;
+    font-size: 1.7em;
+}
+.team-info h5{
+    color: #8b7cb1eb;;
+    font-size: 0.9em;
+}
+.team-info p{
+    color: #000000c4;
+    margin-top: 15px;
+    font-size: .9em;
+}
+.team-info .fa{
+    color: #fff;
+    background-color: #9f9d9e;
+    padding: 3px 6px;
+    margin-top: 8px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
 /*******************************Team Section End***********************************/
 
 /*******************************Skill Section Start********************************/
+.skill{
+    width: 100%;
+    float: left;
+    padding: 25px 0;
+}
+.skill-info{
+    position: relative;
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+.skill-info img{
+    width: 125px;
+    height: 125px
+}
+
+.skill-info h4{
+    position: absolute;
+    top: 36%;
+    left: 46%;
+    color: #8b7cb1eb;
+    font-family: serif;
+    font-size: 1.1em;
+}
+.skill-info h2{
+    margin-top: 7px;
+    color: #1b1a1a;
+    font-size: 1em;
+}
 /*******************************Skill Section End**********************************/
 
 /*******************************Portfolio Section Start****************************/
