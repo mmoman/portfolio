@@ -295,19 +295,22 @@ header{
     text-align: center;
 }
 .form-control{
-    width: 48%;
+    width: 46%;
     height: 35px;
     background-color: #0d2f4e;
     border: none;
     border-radius: 5px;
 }
+.contact-form input{
+    margin: 0px 10px;
+}
 .contact-form textarea{
-    width: 98% !important;
-    height: 125px !important;
+    width: 97% !important;
+    height: 120px !important;
     background-color: #0d2f4e!important;
     border: none!important;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .btn-submit{
     background-color: #32bbbf;
