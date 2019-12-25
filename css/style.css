@@ -295,14 +295,14 @@ header{
     text-align: center;
 }
 .form-control{
-    width: 46%;
+    width: 47%;
     height: 35px;
     background-color: #0d2f4e;
     border: none;
     border-radius: 5px;
 }
 .contact-form input{
-    margin: 0px 10px;
+    margin: 0px 7px;
 }
 .contact-form textarea{
     width: 97% !important;
