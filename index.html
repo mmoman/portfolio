@@ -6,8 +6,8 @@
     <!-------------Favicon Icon------------------------------------------------------------>
     <link href="images/favicon.ico" rel="shortcut icon" type="image/png"/>
 
-    <!-------------Google Font File-------------------------------------------------------->
-    <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+    <!-------------Google Font CDN-------------------------------------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 
     <!-------------Font Awesome------------------------------------------------------------>
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -19,27 +19,31 @@
     <!-------------------------Header Section Start----------------------------------------->
     <header id="hederMain">
         <div class="container">
-            <div class="nav-brand">
-                <img alt="logo" src="images/cuda.png">
-            </div>
             <div class="navbar">
-                <ul>
-                    <li>
-                        <a href="#hederMain">Home</a>
-                    </li>
-                    <li>
-                        <a href="#service">About</a>
-                    </li>
-                    <li>
-                        <a href="#skill">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <div class="nav-brand">
+                    <img alt="logo" src="images/cuda.png">
+                </div>
+                <div class="navbar-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#hederMain">Home</a>
+                            </li>
+                            <li>
+                                <a href="#service">About</a>
+                            </li>
+                            <li>
+                                <a href="#skill">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Work</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             <div class="header-info">
                 <h2>The solitude of paradox leads to life.. Hercle, zirbus salvus!, secundus luba!</h2>
@@ -268,9 +272,9 @@
             </div>
             <div class="contact-form">
                 <form>
-                    <input type="text" class="form-control" placeholder="Your Name">
-                    <input type="email" class="form-control" placeholder="Your Email">
-                    <textarea placeholder="Your Text"></textarea>
+                    <input type="text" class="form-control" placeholder="Your Name"  required autofocus>
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                    <textarea placeholder="Your Text" required></textarea>
                     <button type="submit" class="btn btn-submit">Send Message</button>
                 </form>
             </div>

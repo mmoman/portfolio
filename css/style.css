@@ -1,6 +1,8 @@
+/*******************************Basic Setting Start********************************/
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: sans-serif;
@@ -10,38 +12,57 @@ body{
     margin: 0 auto;
 }
 h2{
-    font-family: 'Girassol', cursive;
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
+/*******************************Basic Setting End**********************************/
 /*******************************Header Section Start*******************************/
 header{
     width: 100%;
     float: left;
     background-color: #865c96;
-    padding: 25px 0;
 }
-
+header .container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    float: left;
+    background-color: #865c96;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+}
 .nav-brand{
-    width: 40%;
+    width: 30%;
     float: left;
 }
 .nav-brand img{}
 
-.navbar{
-    width: 60%;
+.navbar-menu{
+    width: 70%;
     float: left;
 }
-.navbar ul{
+.navbar-menu ul{
     list-style: none;
 }
-.navbar ul li{
+.navbar-menu ul li{
     display: inline-block;
     margin: 10px 30px;
+    transition: 0.9s ease-in-out;
 }
-.navbar ul li a{
+.navbar-menu ul li a{
+    text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    padding: 5px;
+    transition: 0.4s ease-in-out;
+}
+.navbar-menu ul li a:hover{
+    color: #6d2b86;
 }
 .header-info{
     width: 45%;
@@ -63,6 +84,11 @@ header{
 .btn-header{
     background-color: #f77551;
     box-shadow: 0 2px 0 #f775517a;
+    transition: 0.8s ease;
+}
+.btn-header:hover{
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #000000a3;
 }
 /*******************************Header Section End*********************************/
 
@@ -81,6 +107,7 @@ header{
 .title h2{
     font-size: 1.8em;
     margin-bottom: 10px;
+    letter-spacing: 1.5px;
 }
 .title span{
     display: block;
@@ -137,7 +164,7 @@ header{
 .team-info h2{
     margin-top: 7px;
     color: #110101;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 .team-info h5{
     color: #8b7cb1eb;
@@ -149,12 +176,29 @@ header{
     font-size: .9em;
 }
 .team-info .fa{
-    color: #fff;
+    color: #ffffff;
     background-color: #9f9d9e;
     padding: 3px 6px;
     margin-top: 8px;
     margin-right: 5px;
     border-radius: 50px;
+    transition: 0.6s ease-in-out;
+}
+.team-info .fa.fa-facebook:hover{
+    background-color: #3b5998;
+    box-shadow: 1px 1px 5px #000000a3;
+}
+.team-info .fa.fa-twitter:hover{
+    background-color: #00acee;
+    box-shadow: 1px 1px 5px #000000a3;
+}
+.team-info .fa.fa-linkedin:hover{
+    background-color: #0e76a8;
+    box-shadow: 1px 1px 5px #000000a3;
+}
+.team-info .fa.fa-envelope-o:hover{
+    background-color: #09d4c0;
+    box-shadow: 1px 1px 5px #000000a3;
 }
 /*******************************Team Section End***********************************/
 
@@ -200,7 +244,15 @@ header{
     padding: 25px 0;
     text-align: center;
 }
-.btn-portfolio{background-color: #c5aa79;padding: 5px;}
+
+.btn-portfolio{
+    background-color: #c5aa79;
+    padding: 5px;
+    transition: 0.4s ease-in-out;
+}
+.btn-portfolio:hover{
+    box-shadow: 1px 1px 5px #000000a3;
+}
 .portfolio-top, .portfolio-bottom{
     width: 100%;
     float: left;
@@ -222,6 +274,10 @@ header{
     border-radius: 3px;
     box-shadow: 0 2px 0 #048687;
     margin-bottom: 50px;
+    transition: 0.6s ease;
+}
+.btn-portfolio-btm:hover{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.31), rgb(10, 250, 221));
 }
 /*******************************Portfolio Section End******************************/
 
@@ -303,6 +359,8 @@ header{
 }
 .contact-form input{
     margin: 0px 7px;
+    padding: 7px;
+    color: #fff;
 }
 .contact-form textarea{
     width: 97% !important;
@@ -311,11 +369,21 @@ header{
     border: none!important;
     border-radius: 5px;
     margin-top: 15px;
+    padding: 7px!important;
+    color: #fff!important;
+}
+::placeholder{
+    color: #ffffff!important;
+    margin: 15px 0 0 15px!important;
 }
 .btn-submit{
     background-color: #32bbbf;
     border-radius: 5px;
     box-shadow: 0 2px 0 #147489;
+    transition: 0.6s ease;
+}
+.btn-submit:hover{
+    background-image: radial-gradient(circle, #00ffdc, #ff470038, #0016807a);
 }
 /*******************************Contact Section End********************************/
 
